@@ -16,7 +16,7 @@ function LoginForm() {
   };
 
 
-  const handleSubmit = (e) => {
+ const handleSubmit = (e) => {
     e.preventDefault();
     // Vérifier les informations d'identification
     if (email === 'nehemiediav@gmail.com' && password === 'admin') {
